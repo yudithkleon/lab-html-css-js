@@ -13,5 +13,38 @@ header{
 }
 
 main{
+ text-align: center;
+ padding: 50px; 
+}
+
+#h2-count{
+    font-size: 20;
+    font-weight: 900;
+    color: blue;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+#decrement{
+    color: white;
+    background-color: rgb(175, 22, 22);
+    font-size: 20px;
+
+}
+#increment{
+    color: white;
+    background-color: rgb(12, 121, 54);
+    font-size: 20px;
+
+}
+
+#reset{
+    color: black;
+    background-color: rgb(240, 253, 124);
+    font-size: 20px;
 
 }
