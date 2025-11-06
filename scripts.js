@@ -26,8 +26,14 @@ button_reset.addEventListener("click", function () {
 
 const validar_color = (count) => {
   if (count >= 10) {
-    console.log("cambiar de color");
+     view.style.color ="red"
   } else {
-    console.log("mantengo el color");
+     
+  }
+  if (count < 0) {
+    console.log("cambiar de color");
+    button_decrement.style.background ="rgba(83, 69, 69, 1)"
+  }else{
+    button_decrement.style.background ="rgb(175, 22, 22)"
   }
 };
